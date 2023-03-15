@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+	.icon {
+		display: block;
+	}
+	.icon:hover {
+		color: #ccc;
+	}
+	.icon.active {
+		color: #fff;
+	}
+	nav {
+		flex-direction: column;
+		position: absolute;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		background-color: #444;
+		transition: all 0.5s ease-in-out;
+		max-height: 0;
+		overflow: hidden;
+	}
+	nav.active {
+		max-height: 500px;
+	}
+	.menu li {
+		margin: 10px 0;
+	}
+	.menu li a {
+		display: block;
+		padding: 10px;
+	}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking Tiket</title>
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Travel.id</a>
+		<nav>
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<a href="#" class="icon">&#9776;</a>
+	</header>
+	<div class="formulir">
+		<form>
+			<h1>Booking Tiket</h1>
+			
+			<label for="from">Dari:</label>
+			<input type="text" id="from" name="from">
+
+			<label for="to">Ke:</label>
+			<input type="text" id="to" name="to">
+
+			<label for="depart">Tanggal Berangkat:</label>
+			<input type="date" id="depart" name="depart">
+
+			<label for="return">Tanggal Kembali:</label>
+			<input type="date" id="return" name="return">
+
+			<label for="class">Tiket Kelas:</label>
+			<select id="class" name="class">
+				<option value="ekonomi">Ekonomi</option>
+				<option value="bisnis">Bisnis</option>
+				<option value="eksekutif">Eksekutif</option>
+			</select>
+
+			<label for="passengers">Jumlah Penumpang:</label>
+			<select id="passengers" name="passengers">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select><br><br>
+
+			<input type="submit" value="Cari Tiket">
+		</form>
+	</div>
+</body>
+</html>

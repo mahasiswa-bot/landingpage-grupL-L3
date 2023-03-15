@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-image: url(background-form.jpg);
+  	background-size: cover;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	margin: 0 10px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.icon {
+	display: none;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+main {
+	padding: 20px;
+}
+
+.formulir {
+	margin: 50px auto;
+	max-width: 600px;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	color: #fff;
+}
+
+.formulir h1 {
+	padding: 20px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], select {
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background-color: #00bfff;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 12px 24px;
+  	display: inline-block;
+  	opacity: 0.8;
+}
+
+input[type="submit"]:hover {
+	opacity: 1;
+}
